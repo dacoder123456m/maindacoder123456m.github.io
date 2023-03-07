@@ -1,1 +1,1 @@
-currentverson=1.0
+currentverson=betatestv1.0
