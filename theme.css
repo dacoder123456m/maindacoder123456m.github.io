@@ -10,7 +10,9 @@ body{
 
 nav{
     width: 100%;
-    float: left;
+    float: center;
+    list-style:none;
+    text-align:center;
 }
 
 .menu{
@@ -21,7 +23,7 @@ nav{
 }
 
 .menu li{
-    display: inline;
+    display: inline-block;
 }
 
 .button{
