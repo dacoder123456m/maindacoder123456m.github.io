@@ -1,1 +1,3 @@
-currentverson=betatestv1.0
+currentverson=2.0
+
+Features: New Ui, Logos
