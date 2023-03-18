@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <title> Error 404 (Not Found)!!1</title>
+    <style>
+body {
+  background-image: url('https://storage.googleapis.com/support-forums-api/attachment/thread-8902151-16098994870122625139.png');
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
+  background-size: 1600px 775px;
+</style>
+<SCRIPT language="Javascript">
+const keySequence = [
+    'ArrowUp',
+    'ArrowUp',
+    'ArrowDown',
+    'ArrowDown',
+    'ArrowLeft',
+    'ArrowRight',
+    'ArrowLeft',
+    'ArrowRight',
+    'b',
+    'a',
+];
+
+let userInput = new Array( keySequence.length );
+  
+window.addEventListener( 'keydown', ( { key } ) => {
+    userInput = [ ...userInput.slice( 1 ), key ];
+
+    if ( keySequence.every( ( v, k ) => v === userInput[ k ] ) ) {
+        window.location.href = "TheSecretSocietyHome.html";
+    }
+} );
+  
+</SCRIPT>
+</html>
