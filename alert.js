@@ -1,3 +1,4 @@
+window.onbeforeunload = function(){ return 1; };
 const keySequence = [
     'a',
     'l',
