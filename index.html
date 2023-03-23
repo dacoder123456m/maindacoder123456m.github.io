@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
     <title> Error 404 (Not Found)!!1</title>
-    <script src="Timer.js"></script>
     <style>
 body {
   background-image: url('https://storage.googleapis.com/support-forums-api/attachment/thread-8902151-16098994870122625139.png');
@@ -10,7 +9,37 @@ body {
   background-attachment: fixed;
   background-size: 1600px 775px;
 </style>
-<SCRIPT language="Javascript">
-function _0x12f6(){var _0x120b4c=['length','17ploVCq','replace','16SELDtz','every','location','3382070DLHHbZ','5067685UOhtTA','\x20seconds\x20remaining','addEventListener','innerHTML','Transporter.html','1918629TRdaZS','1999190aYwOVJ','808AmJaCx','Timer','100146WWuawe','https://blocked.goguardian.com/?ctx=YWZpPTEyNzg4MTM5JmFwaT01MDEyNyZvaT0yMjAwOTg2MDQ3NiZvdT1odHRwcyUzQSUyRiUyRmRhY29kZXIxMi5naXRodWIuaW8lMkYmcnM9QURNSU5fU0lURV9GSUxURVImc3Q9Y2hyb21pdW0tbSZ2PTE%3D&sum=1a24e314','6LMEunD','2246094TltUYE','getElementById'];_0x12f6=function(){return _0x120b4c;};return _0x12f6();}var _0xe12495=_0x24e5;(function(_0x5192b2,_0x2ccd9f){var _0x1a74ed=_0x24e5,_0x155ec2=_0x5192b2();while(!![]){try{var _0x371295=parseInt(_0x1a74ed(0x78))/0x1*(-parseInt(_0x1a74ed(0x72))/0x2)+parseInt(_0x1a74ed(0x6e))/0x3+parseInt(_0x1a74ed(0x70))/0x4+parseInt(_0x1a74ed(0x7d))/0x5*(parseInt(_0x1a74ed(0x74))/0x6)+-parseInt(_0x1a74ed(0x7e))/0x7+parseInt(_0x1a74ed(0x7a))/0x8*(parseInt(_0x1a74ed(0x75))/0x9)+parseInt(_0x1a74ed(0x6f))/0xa;if(_0x371295===_0x2ccd9f)break;else _0x155ec2['push'](_0x155ec2['shift']());}catch(_0x48bd17){_0x155ec2['push'](_0x155ec2['shift']());}}}(_0x12f6,0x6b6ce));var timeLeft=0x5,elem=document[_0xe12495(0x76)](_0xe12495(0x71)),timerId=setInterval(countdown,0x3e8);function countdown(){var _0x2e165e=_0xe12495;timeLeft==0x0?(clearTimeout(timerId),window['location']['replace'](_0x2e165e(0x73))):(elem[_0x2e165e(0x6c)]=timeLeft+_0x2e165e(0x7f),timeLeft--);}const keySequence=['o','p','e','n'];function _0x24e5(_0x32c8a,_0xc164ae){var _0x12f690=_0x12f6();return _0x24e5=function(_0x24e57b,_0x59620f){_0x24e57b=_0x24e57b-0x6c;var _0x4f8a98=_0x12f690[_0x24e57b];return _0x4f8a98;},_0x24e5(_0x32c8a,_0xc164ae);}let userInput=new Array(keySequence[_0xe12495(0x77)]);window[_0xe12495(0x80)]('keydown',({key:_0x5ae7fb})=>{var _0x68a7aa=_0xe12495;userInput=[...userInput['slice'](0x1),_0x5ae7fb],keySequence[_0x68a7aa(0x7b)]((_0x449d1b,_0x1f2703)=>_0x449d1b===userInput[_0x1f2703])&&window[_0x68a7aa(0x7c)][_0x68a7aa(0x79)](_0x68a7aa(0x6d));});
-</SCRIPT>
+
+
+<script>
+  var timeleft = 2;
+  var downloadTimer = setInterval(function () {
+    document.getElementById("countdown").innerHTML = `${timeleft} seconds left`;
+    timeleft -= 1;
+    if (timeleft <= 0) {
+      clearInterval(downloadTimer);
+      window.location.replace("https://blocked.goguardian.com/?ctx=YWZpPTEyNzg4MTM5JmFwaT01MDEyNyZvaT0yMjAwOTg2MDQ3NiZvdT1odHRwcyUzQSUyRiUyRmRhY29kZXIxMi5naXRodWIuaW8lMkYmcnM9QURNSU5fU0lURV9GSUxURVImc3Q9Y2hyb21pdW0tbSZ2PTE%3D&sum=1a24e314");
+    }
+  }, 1000);
+  
+  
+  
+  const keySequence = [
+    'o',
+    'p',
+    'e',
+    'n',
+];
+
+let userInput = new Array( keySequence.length );
+
+window.addEventListener( 'keydown', ( { key } ) => {
+    userInput = [ ...userInput.slice( 1 ), key ];
+
+    if ( keySequence.every( ( v, k ) => v === userInput[ k ] ) ) {
+        window.location.replace("Transporter.html");
+    }
+} );
+
+</script>
 </html>
