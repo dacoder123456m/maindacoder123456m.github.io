@@ -24,7 +24,8 @@ function makeFullScreen() {
 document.onkeydown = function(evt) {
     evt = evt || window.event;
     if (evt.keyCode == 27) {
-        location.reload(true);
+      location.reload(true);
     }
-};
+
+    };
             
