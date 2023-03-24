@@ -1,5 +1,5 @@
 # The-Secret-Society
-Just a "Perfectly Normal Html Site"
+Just a "Perfectly Normal HTML Site"
 Have Fun 
-If You Want Me To Remove Your Game Site I Will Happily Remove It But I Do Give Credit This Is Just Connecting The Dots Of All Of Your Great Sites Please Tell Me If You Want It Removed. Go to chrome settings and go to privacy and security click site settings and click site settings click popups and redirects click "sites can send popups and use redirects"
-This Is A Clone Of Dacoder12.github.io Because It Got Blocked I Am The Same Person
+If you want me to remove your game site, I will happily remove it but I do give credit. This is just connecting all of your great sites. Please notify me if you want it removed. Please allow pop-ups on this site. Here's how: Go to chrome settings, go to privacy and security, click "site settings", click "popups and redirects" and then click "sites can send popups and use redirects".
+This Is A Clone Of Dacoder12.github.io for an alternative if it gets blocked. I am the same person logged in on an alt.
