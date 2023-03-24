@@ -23,9 +23,10 @@ function makeFullScreen() {
 // Unfullscreen
 document.onkeydown = function(evt) {
     evt = evt || window.event;
-    if (evt.keyCode == 192) {
+    if (evt.keyCode == 220) {
       location.reload(true);
     }
 
     };
+
             
