@@ -1,3 +1,5 @@
-website: https://dacoder12.github.io
+website: https://dacoder123456m.github.io
 basewebsite: /
-favicon: assets/2favicon.ico
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
